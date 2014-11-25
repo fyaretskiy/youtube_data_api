@@ -40,6 +40,7 @@ def get_list(search):
 
 	print list_urls
 
+
 get_list(search)
 page_changer(search, number_of_links)
 
