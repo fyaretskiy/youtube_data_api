@@ -80,16 +80,3 @@ def run_program():
 
 run_program()
 print_table()
-
-"""ok lets start from the beginning. I get add links to another file. 
-	first check if this video exists - dont have time for this
-	ok I pull data from the api
-	then i set data from the api into a few variables -  I got this part fucking finished ###
-	then the variables go into a new table
-	my id needs to change after I add a new line - this took a while but done!###
-	I also need to check if the database exists - motherfucking works! ###
-	now i need to do the keyword argument part for multiple videos ### I got this to work for a list of links
-
-
-	
-"""
