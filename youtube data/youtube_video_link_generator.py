@@ -35,7 +35,8 @@ def get_list(search):
 		j = re.findall("=[^ \t\n\r\f\v]+", i)[0]
 		j = j.replace("=", "")
 		j = j.replace('"', '')
-		j = "https://www.youtube.com/watch?v=" + j
+		j = "=" + j
+		#j = "https://www.youtube.com/watch?v=" + j
 		list_urls.append(j)
 
 	print list_urls
