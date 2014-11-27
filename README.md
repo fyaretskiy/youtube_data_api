@@ -1,11 +1,11 @@
 youtube_data_api
 ================
 
-Youtube data creates a sqlite3 database with statistics of the videos gathered from the google youtube data api.
+On the command line, enter a youtube search keyword and a number of links.
+The program will search youtube by relevance and return a list of links.
+These links will are sent to the youtube data api, and data is returned.
+The data is then stored in a sqlite3 database. 
 
-1. add a google api key to api_key.py
-2. add a list of youtube video links to my_links
-3. run youtube_data
 
 
 
